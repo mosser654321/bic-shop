@@ -89,7 +89,7 @@ $result = $stmt->get_result();
                                 <?php echo !empty($row['user_name']) ? $row['user_name'] : "-"; ?>
                             </td>
                             <td><?php echo $row['product_name']; ?></td>
-                            <td><?php echo $row['quantity']; ?> แก้ว</td>
+                            <td><?php echo $row['quantity']; ?></td>
                             <td>
                                 <?php 
                                     if($row['status'] == 'pending') echo '<span class="badge bg-warning text-dark">⏳ รออนุมัติ</span>';
