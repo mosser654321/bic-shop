@@ -49,7 +49,7 @@ $result = $conn->query("SELECT * FROM orders WHERE status = 'pending' ORDER BY o
     <div class="row mb-4">
         <div class="col-md-6">
             <a href="manage_products.php" class="btn btn-primary w-100 py-3 shadow-sm">
-                จัดการเมนูสินค้า (เพิ่ม/ลบ)
+                จัดการสินค้า (เพิ่ม/ลบ)
             </a>
         </div>
         <div class="col-md-6">
@@ -98,3 +98,4 @@ $result = $conn->query("SELECT * FROM orders WHERE status = 'pending' ORDER BY o
 
 </body>
 </html>
+
